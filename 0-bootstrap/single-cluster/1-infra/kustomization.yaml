@@ -12,7 +12,7 @@ resources:
 - argocd/serviceaccounts-tools.yaml
 - argocd/serviceaccounts-db2.yaml
 - argocd/serviceaccounts-cp4ba.yaml
-#- argocd/norootsquash.yaml
+- argocd/serviceaccounts-norootsquash.yaml
 #- argocd/daemonset-sync-global-pullsecret.yaml
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
