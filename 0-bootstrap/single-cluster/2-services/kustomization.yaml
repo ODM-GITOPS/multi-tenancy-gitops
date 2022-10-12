@@ -1,7 +1,7 @@
 resources:
 # IBM Software
 ## Cloud Pak for Business Automation
-#- argocd/operators/ibm-cp4a-operator.yaml
+- argocd/operators/ibm-cp4a-operator.yaml
 # - argocd/operators/ibm-db2u-operator.yaml
 # - argocd/instances/ibm-db2-instance.yaml
 - argocd/instances/openldap.yaml
