@@ -17,16 +17,16 @@ spec:
   project: services
   source:
     path: operators/ibm-db2u-operator
-    # helm:
-    #   values: |
-    #     ibm-db2u:
-    #       subscriptions:
-    #         subscription:
-    #           channel: v1.1
-    #           installPlanApproval: Automatic
-    #           name: db2u-operator
-    #           source: ibm-db2uoperator-catalog
-    #           sourceNamespace: openshift-marketplace
+    helm:
+      values: |
+        ibm-db2u:
+          subscriptions:
+            subscription:
+              channel: v1.1
+              installPlanApproval: Automatic
+              name: db2u-operator
+              source: ibm-db2uoperator-catalog
+              sourceNamespace: openshift-marketplace
   syncPolicy:
     automated:
       prune: true
