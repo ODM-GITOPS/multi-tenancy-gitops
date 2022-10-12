@@ -4,8 +4,8 @@ resources:
 - argocd/operators/ibm-cp4a-operator.yaml
 - argocd/instances/openldap.yaml
 - argocd/instances/ibm-cp4ba-odm.yaml
-# - argocd/operators/ibm-db2u-operator.yaml
-# - argocd/instances/ibm-db2-instance.yaml
+- argocd/operators/ibm-db2u-operator.yaml
+- argocd/instances/ibm-db2-instance.yaml
 
 ## IBM Catalogs
 - argocd/operators/ibm-catalogs.yaml
