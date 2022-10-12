@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ibm-ibm-db2-instance
+  name: ibm-db2-instance
   annotations:
     argocd.argoproj.io/sync-wave: "280"
   labels:
@@ -12,7 +12,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: db2
+    namespace: tools
     server: 'https://kubernetes.default.svc'
   project: services
   source:
