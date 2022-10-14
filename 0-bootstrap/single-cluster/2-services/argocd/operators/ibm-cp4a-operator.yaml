@@ -5,14 +5,14 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "230"
   labels:
-    gitops.tier.group: cloudpak
+    gitops.tier.group: cp4ba
     gitops.tier.layer: services
     gitops.tier.source: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: cloudpak
+    namespace: cp4ba
     server: https://kubernetes.default.svc
   project: services
   source:
